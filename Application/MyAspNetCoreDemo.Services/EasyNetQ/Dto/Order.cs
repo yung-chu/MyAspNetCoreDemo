@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 using EasyNetQ;
+using EasyNetQ.Topology;
 
 namespace MyAspNetCoreDemo.Services
 {

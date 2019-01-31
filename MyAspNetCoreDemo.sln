@@ -11,13 +11,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.Application", "3.Applicat
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.Presentation", "4.Presentation", "{49E549E6-18EE-428B-8E66-B93E0467F617}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1.MyAspNetCoreDemo.EFCore", "Infrastructure\MyAspNetCoreDemo.EFCore\1.MyAspNetCoreDemo.EFCore.csproj", "{BC001B54-7A23-4677-9789-9433E4B32DF6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyAspNetCoreDemo.EFCore", "Infrastructure\MyAspNetCoreDemo.EFCore\MyAspNetCoreDemo.EFCore.csproj", "{BC001B54-7A23-4677-9789-9433E4B32DF6}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2.MyAspNetCoreDemo.Services", "Application\MyAspNetCoreDemo.Services\2.MyAspNetCoreDemo.Services.csproj", "{32A89D0C-5CB0-4FCB-B93A-77DE4264AA42}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyAspNetCoreDemo.Services", "Application\MyAspNetCoreDemo.Services\MyAspNetCoreDemo.Services.csproj", "{32A89D0C-5CB0-4FCB-B93A-77DE4264AA42}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3.MyAspNetCoreDemo.Api", "Presentation\MyAspNetCoreDemo.Api\3.MyAspNetCoreDemo.Api.csproj", "{DECD4151-9A22-480F-939C-D8132ED8088D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyAspNetCoreDemo.Api", "Presentation\MyAspNetCoreDemo.Api\MyAspNetCoreDemo.Api.csproj", "{DECD4151-9A22-480F-939C-D8132ED8088D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyAspNetCoreDemo.Core", "Domain\MyAspNetCoreDemo.Core\MyAspNetCoreDemo.Core.csproj", "{24197C29-0EFC-4D8F-B039-D76E832C1FA5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyAspNetCoreDemo.Core", "Domain\MyAspNetCoreDemo.Core\MyAspNetCoreDemo.Core.csproj", "{24197C29-0EFC-4D8F-B039-D76E832C1FA5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

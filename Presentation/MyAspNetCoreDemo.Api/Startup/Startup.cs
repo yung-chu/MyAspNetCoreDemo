@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 using EasyNetQ;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
@@ -36,6 +37,7 @@ namespace MyAspNetCoreDemo.Web
             services.AddTransient<IEncryptionService, EncryptionService>();
             string rabbitMqConnection = Configuration["ConnectionStrings:RabbitMqConnection"];
             services.AddSingleton(RabbitHutch.CreateBus(rabbitMqConnection));
+
 
             //数据保护
             //https://docs.microsoft.com/en-us/aspnet/core/security/data-protection/introduction?view=aspnetcore-2.2

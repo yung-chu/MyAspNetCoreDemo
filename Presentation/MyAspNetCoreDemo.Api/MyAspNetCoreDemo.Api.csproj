@@ -10,10 +10,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="wwwroot\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <PackageReference Include="EasyNetQ" Version="3.3.8" />
     <PackageReference Include="Microsoft.AspNetCore.App" />
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
@@ -22,7 +18,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Application\MyAspNetCoreDemo.Services\2.MyAspNetCoreDemo.Services.csproj" />
+    <ProjectReference Include="..\..\Application\MyAspNetCoreDemo.Services\MyAspNetCoreDemo.Services.csproj" />
   </ItemGroup>
 
 </Project>

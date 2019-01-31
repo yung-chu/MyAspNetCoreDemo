@@ -14,7 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Infrastructure\MyAspNetCoreDemo.EFCore\1.MyAspNetCoreDemo.EFCore.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\MyAspNetCoreDemo.EFCore\MyAspNetCoreDemo.EFCore.csproj" />
   </ItemGroup>
 
 </Project>
